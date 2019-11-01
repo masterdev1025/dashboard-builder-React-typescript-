@@ -1,0 +1,50 @@
+@import "./scss/variables";
+@import "./scss/extends";
+
+.builder-LeftCollapse {
+  // background-color: rgb(30, 38, 54);
+  display: inline-flex;
+  max-width: 270px;
+  height: 100%;
+  color: $builder-text-color;
+  background-color: rgba(245, 245, 220, 0);
+}
+
+.builder-LeftCollapse-trigger-wrapper {
+  
+  margin: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.builder-LeftCollapse-trigger {
+  @extend %flex;
+  z-index: 100;
+  background-color: $builder-background;
+  height: 50px;
+  margin: 0;
+  width: 17px;
+  cursor: pointer;
+  border-radius: 0 0.8rem 0.8rem 0;
+  // border-left: 1px solid rgba(128, 128, 128, 0.37) ;
+}
+
+.builder-LeftCollapse-trigger:hover {
+  background-color: $builder-indicator;
+}
+
+.builder-LeftCollapse-content-wrapper {
+  background-color: $builder-background;
+  position: absolute;
+  height: 100%;
+  max-width: 250px;
+}
+
+.builder-LeftCollapse-content {
+  @extend %flex;
+}
+
+.builder-LeftCollapse-icon {
+  font-size: 1.2rem;
+}

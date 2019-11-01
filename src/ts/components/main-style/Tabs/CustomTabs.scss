@@ -1,0 +1,35 @@
+@import "../scss/extends";
+@import "../scss/variables";
+
+.builder-CustomTabs {
+  width: 100%;
+  @extend %flex;
+}
+
+.builder-tab-icon {
+  font-size: 1.2rem !important;
+  margin-right: 0.5rem;
+}
+
+.builder-StyledTabs {
+  margin-top: 0.5rem;
+  width: 100%;
+  @extend %flex;
+
+  .MuiTabs-indicator {
+    display: none;
+  }
+}
+
+.builder-StyledTab {
+  flex: 1;
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+  color: $builder-text-color !important;
+  max-width: none !important;
+  min-width: none !important;
+}
+
+.builder-StyledTab:hover {
+  color: $builder-indicator !important;
+}

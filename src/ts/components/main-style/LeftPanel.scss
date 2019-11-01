@@ -1,0 +1,12 @@
+@import "./scss/variables";
+@import "./scss/extends";
+
+.builder-LeftPanel {
+
+  display: flex;
+
+  position: relative;
+  height: calc(100vh - 100px);
+  width: calc(400px + 270px);
+}
+

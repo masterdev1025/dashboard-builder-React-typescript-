@@ -1,0 +1,64 @@
+// import * as React from 'react';
+// import { connect } from 'react-redux';
+// import styled from 'styled-components';
+// import { IAppState } from '../../services/store/reducersDef';
+// // import GlobalStyle from '../styles/GlobalStyle';
+// // import Counter from '../../components/Counter';
+// import {  Tooltip } from '@material-ui/core';
+// import { IGenericControl } from './genericInterface';
+// // import { themes } from '../styles/themes';
+
+// interface IHoverIcon extends IGenericControl {
+// 	tooltip: String;
+// 	faIcon: String;
+// }
+
+// class HoverIcon extends React.Component<IHoverIcon> {
+
+// 	render() {
+// 		console.log('inside hover comp', this.props.theme)
+// 		return (
+// 			<HoverIconAppContainer>
+// 				<Tooltip title={this.props.tooltip}>
+
+
+// 					<span className="fa-stack fa-lg" style={{ cursor: "pointer" }}>
+// 						<i className="fa fa-circle fa-stack-2x"
+// 							style={{ color: "grey" }}></i>
+// 							<i
+// 								className="fa fa-star fa-stack-1x fa-inverse"
+// 							></i>
+// 					</span>
+// 				</Tooltip>
+// 			</HoverIconAppContainer>
+// 		);
+// 	}
+// }
+
+// const mapStateToProps = (state: IAppState) => {
+// 	return {
+// 		theme: state.settings.theme
+// 	};
+// };
+
+// export default connect(mapStateToProps)(HoverIcon);
+
+// const HoverIconAppContainer = styled('span')`
+// 	position: absolute;
+// 	display: flex;
+// 	flex-direction: row;
+// 	justify-content: center;
+// 	justify-items: center;
+// 	align-items: center;
+// 	height: 90vh;
+// 	width: 90vw;
+// 	left: 5vw;
+// 	top: 5vh;
+// 	color: ${p => p.theme.primary}
+// 	color: ${p => p.theme.colors.secondary};
+// 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+// 	:hover {
+// 		color: ${p => p.theme.colors.lightest};
+// 		background-color: ${p => p.theme.colors.secondary};
+// 	  }
+// `;

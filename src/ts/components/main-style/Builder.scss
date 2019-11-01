@@ -1,0 +1,18 @@
+@import "./scss/variables";
+
+// debug builder classes
+
+// *[class*="builder"] {
+//   outline: rgba(76, 175, 79, 0.3) solid 2px;
+//   background-color: black;
+//   color: white;
+// }
+
+.builder-Builder {
+  font-family: $builder-font;
+  background: rgb(18, 95, 35);
+  height: 100vh;
+  min-height: 300px;
+}
+
+

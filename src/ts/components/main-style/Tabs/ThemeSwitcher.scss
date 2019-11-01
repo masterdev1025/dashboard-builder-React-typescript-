@@ -1,0 +1,26 @@
+@import "../scss/extends";
+@import "../scss/variables";
+
+.builder-ThemeSwitcher {
+  @extend %flex;
+  width: 100%;
+  color: $builder-text-color;
+  bottom: 2rem;
+  position: absolute;
+
+  .MuiSwitch-switchBase {
+    color: $builder-indicator;
+  }
+
+  .Mui-checked {
+    color: $builder-indicator !important;
+  }
+
+  .MuiSwitch-track {
+    background-color: $builder-indicator !important;
+  }
+
+  .MuiFormControlLabel-label {
+    font-size: 0.8rem !important;
+  }
+}

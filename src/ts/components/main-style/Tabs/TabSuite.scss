@@ -1,0 +1,12 @@
+@import "../scss/variables";
+
+.builder-TabSuite {
+  background: $builder-background;
+  display: inline-block;
+  height: 100%;
+  width: 400px;
+  // padding: 1rem;
+  position: relative; // for ThemeSwitcher
+  // border-right: 2px solid rgba(207, 207, 207, 0.2);
+  // border-radius: 2px;`
+}

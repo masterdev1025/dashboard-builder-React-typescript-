@@ -1,0 +1,38 @@
+.customizer {
+	position: fixed;
+	z-index: 9999;
+	top: 50px;
+	right: -380px;
+	transition: all .3s ease-in-out;
+	width: 380px;
+	.handle {
+		position: absolute;
+		display: flex;
+		top: 8px;
+		left: -36px;
+		cursor: pointer;
+		padding: 10px 8px;
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+		box-shadow: -3px 0 4px rgba(0,0,0,.06);
+		font-size: 28px;
+		color: #639;
+		transition: all .3s ease-in-out;
+		background-color: white;
+	  }
+	  .customizer-body {
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		background: #fff;
+		box-shadow: 0 4px 20px 1px rgba(0,0,0,.06),0 1px 4px rgba(0,0,0,.08);
+		height: calc(100vh - 40px);
+		overflow-y: scroll;
+		overflow-x: visible;
+		padding:20px;
+	  }
+	  
+  }
+  
+  .customizer.open {
+	right: 0;
+  }

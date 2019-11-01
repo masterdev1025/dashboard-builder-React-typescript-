@@ -1,0 +1,22 @@
+@import "./scss/extends";
+@import "./scss/variables";
+
+.builder-Header {
+  font-family: $builder-font-alternative;
+  @extend %flex;
+  background: $builder-background;
+  height: 50px;
+  color: $builder-text-color;
+}
+
+.builder-Footer {
+  font-family: $builder-font-alternative;
+  @extend %flex;
+  background: $builder-background;
+  height: 50px;
+  color: $builder-text-color;
+}
+
+.builder-Main {
+  height: calc(100vh - 100px);
+}

@@ -1,0 +1,10 @@
+@import "../scss/extends";
+@import "../scss/variables";
+
+
+.builder-Analytics {
+    @extend %flex;
+    height: 5em;
+    color: $builder-text-color;
+    font-size: 0.9rem;
+}

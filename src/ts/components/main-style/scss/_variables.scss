@@ -1,0 +1,34 @@
+// Colors
+$builder-red: #f65058ff;
+$builder-yellow: #fbde44ff;
+$builder-black: #28334aff;
+$builder-gray: #e2e2e2ff;
+$builder-purple: #635ee7ff;
+$builder-aqua: #86BB9Cff;
+
+$builder-font: "Roboto", sans-serif;
+$builder-font-alternative: "Muli", sans-serif;
+
+:root {
+  --builder-background: white;
+  --builder-text-color: $builder-black;
+  --builder-indicator: $builder-yellow;
+}
+
+// $dark-theme: true;
+
+// light theme
+$builder-background: var(--builder-background);
+$builder-text-color: var(--builder-text-color);
+$builder-indicator: var(--builder-indicator);
+
+
+// dark theme
+// @if $dark-theme {
+//  $builder-background: $builder-black;
+//   $builder-text-color: $builder-gray;
+//   $builder-indicator: $builder-purple;
+// }
+
+//
+
